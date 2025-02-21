@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    position: fixed;
+    top: 30px;
+    left: 150px;
+    display: inline-block;
+}
+
+.navbar ul {
+    display: flex;
+
+
+
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a {
+
+    margin:  15px;
+    font-family: Calibri;
+    font-size: 15px;
+    text-decoration: none;
+    color: #727272;
+    transition: all 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.left-column {
+    flex: 0.7;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-column {
+    flex: 0.3;
+    background-color: #9AC8CE;
+    color: white;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+   padding: 0;
+    margin: 0;
+
+
+}
+
+.container1 {
+    display: flex;
+    height: 100vh;
+}
+
+.left-column1 {
+    flex: 0.7;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-column1 {
+    flex: 0.3;
+    background-color: #9AC8CE;
+    color: white;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+
+
+}
+.nn {
+    position: fixed;
+    top: 20px;
+    right: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nn ul li {
+    list-style: none;
+    transition: all 0.3s ease;
+}
+
+.nn ul li:hover {
+    color: #efefef;
+}
+
+svg {
+    display: inline-block;
+    margin: 5px;
+    color: white;
+    height: 18px;
+    width: 18px;
+}
+
+h1 {
+
+
+    font-size: 55px;
+
+    color: black;
+    position: fixed;
+    top: 150px;
+    left: 120px;
+}
+p{
+    font-family: "Anton", serif;
+    font-size: 15px;
+    color: #727272;
+    position: fixed;
+    top: 300px;
+    left: 120px;
+    padding:2px
+}
+.panier a {
+    text-decoration: none;
+    color: white;
+
+    position: fixed;
+    top: 407px;
+    left: 165px;
+}
+.panier  {
+    cursor: pointer;
+    position: fixed;
+    top: 400px;
+    left: 120px;
+    width: 130px;
+    height: 32px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    box-sizing: content-box;
+    background-color: black;
+    text-align: center;
+
+}
+.learn  {
+    cursor: pointer;
+    position: fixed;
+    top: 400px;
+    left: 300px;
+    width: 130px;
+    height: 33px;
+    border: 0.5px solid #1e1f22;
+    box-sizing: content-box;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 5px;
+
+}
+.learn a{
+    text-decoration: none;
+    position: fixed;
+    top: 407px;
+    left: 327px;
+    color: black;
+
+
+}
+.panier svg{
+
+    color: white;
+    position: fixed;
+    top: 402px;
+    left: 125px;
+
+}
+.product{
+    position: fixed;
+    top: 50px;
+    left: 650px;
+
+
+}
+.chair {
+    width:500px;
+    height:500px;
+
+
+}
+.logo   {
+    width: 27px;
+    height: 27px;
+    position: fixed;
+    top: 25px;
+    left: 120px;
+    margin: 20 px;
+    cursor: pointer;
+    display: flex;
+}
+
